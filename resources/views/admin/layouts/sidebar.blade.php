@@ -161,41 +161,6 @@ w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text
                         </a>
                     </li>
                     <!--------Portfolio end------------>
-
-                    <!---------- Gallery Start -------->
-                    <li>
-                        <button type="button"
-                            class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700"
-                            aria-controls="dropdown-gallery" data-collapse-toggle="dropdown-gallery">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                class="w-6 h-6 sidebaricon">
-                                <path fill-rule="evenodd"
-                                    d="M1.5 6a2.25 2.25 0 0 1 2.25-2.25h16.5A2.25 2.25 0 0 1 22.5 6v12a2.25 2.25 0 0 1-2.25 2.25H3.75A2.25 2.25 0 0 1 1.5 18V6ZM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0 0 21 18v-1.94l-2.69-2.689a1.5 1.5 0 0 0-2.12 0l-.88.879.97.97a.75.75 0 1 1-1.06 1.06l-5.16-5.159a1.5 1.5 0 0 0-2.12 0L3 16.061Zm10.125-7.81a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0Z"
-                                    clip-rule="evenodd" />
-                            </svg>
-
-
-
-                            <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item>Gallery</span>
-                            <svg sidebar-toggle-item class="sidebaricon" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </button>
-                        <ul id="dropdown-gallery" class="hidden py-2 space-y-2">
-                            <li>
-                                <a href="{{ route('gallery.index') }}"
-                                    class="flex items-center p-2 text-base text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700">Photos</a>
-                            </li>
-                            <li>
-                                <a href="{{ route('gallery-category.index') }}"
-                                    class="flex items-center p-2 text-base text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700">Category</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!---------- Gallery End ---------->
                     <!-----------Blog start------------>
                     <li>
                         <button type="button"

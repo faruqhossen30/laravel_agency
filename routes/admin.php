@@ -35,10 +35,10 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     // Start Work
 
     Route::resource('category',           CategoryController::class);
-    Route::resource('gallery',            GalleryController::class);
+    // Route::resource('gallery',            GalleryController::class);
     Route::resource('user',               UserController::class);
-    Route::resource('gallery',            GalleryController::class);
-    Route::resource('gallery-category',   GalleryCategoryController::class);
+    // Route::resource('gallery',            GalleryController::class);
+    // Route::resource('gallery-category',   GalleryCategoryController::class);
     Route::resource('reviewtype',         ReviewtypeController::class);
     Route::resource('review',             ReviewController::class);
     Route::resource('portfolio',          PortfolioController::class);

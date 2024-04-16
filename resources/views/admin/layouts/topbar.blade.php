@@ -18,7 +18,7 @@
                     </svg>
                 </button>
                 <a href="{{ route('dashboard') }}" class="flex items-center ml-2 md:mr-24">
-                    <img src="{{ asset('img/logo.webp') }}" class="h-12 mr-3" alt="Agency" />
+                    <img src="https://flowbite-admin-dashboard.vercel.app/images/users/joseph-mcfall.png" class="h-12 mr-3 rounded-full" alt="Agency" />
                     <span
                         class="self-center text-xl font-semibold text-gray-500 uppercase sm:text-2xl whitespace-nowrap dark:text-gray-200">Agency</span>
                 </a>
